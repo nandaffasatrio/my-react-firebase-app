@@ -1,7 +1,7 @@
 // Navbar.jsx
 import React from "react";
 import { Link } from "react-router-dom";
-import { useAuth } from "./useAuth";
+import { useAuth } from "../hooks/useAuth.js";
 
 const Navbar = () => {
   const { user, signOut, signInWithGoogle } = useAuth();

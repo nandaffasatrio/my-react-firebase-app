@@ -1,6 +1,6 @@
 // ListProperty.jsx
 import React, { useState, useEffect } from "react";
-import LazyLoad from "react-lazyload";
+// import LazyLoad from "react-lazyload";
 
 const ListProperty = () => {
   const [properties, setProperties] = useState([]);

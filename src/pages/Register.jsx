@@ -1,6 +1,6 @@
 // Register.jsx
 import React, { useState } from "react";
-import { useAuth } from "./useAuth";
+import { useAuth } from "../hooks/useAuth";
 
 const Register = () => {
   const [firstName, setFirstName] = useState("");
